@@ -4,11 +4,15 @@ FROM python:3.8-slim
 RUN pip install --no-cache --upgrade pip && \
     pip install --no-cache notebook
 
+
+
+
+
 USER root
 
 
-
 ADD requirements_docker.txt /requirements_docker.txt
+
 
 #PIPI
 RUN pip install -r requirements_docker.txt
@@ -16,8 +20,7 @@ RUN apt-get update -y
 RUN apt-get install -y swig
 RUN apt-get install -y git
 RUN apt-get install -y gcc
-RUN apt-get install -y wget
-RUN pip install jetset
+RUN pip install git+http://github.com/andreatramacere/jetset#egg=jetset
 WORKDIR /
 # create user with a home directory
 ARG NB_USER=jovyan
