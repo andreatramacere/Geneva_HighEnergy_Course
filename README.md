@@ -25,7 +25,7 @@ You can access the slides directly here: https://github.com/andreatramacere/Gene
 
 If you are interested in installing the code, please read the following.
 
-The jetset documentation (previous version: 1.2) is here: https://jetset.readthedocs.io
+The jetset documentation is hosted here: https://jetset.readthedocs.io
 
 
 will work with the version that we are using for the course, so you can use that documentation to get a feeling with the code
