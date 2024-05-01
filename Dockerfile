@@ -18,7 +18,7 @@ USER root
 #RUN pip install -r requirements_docker.txt
 #RUN apt-get update -y
 #RUN apt-get install -y swig
-RUN apt-get install -y git
+#RUN apt-get install -y git
 #RUN apt-get install -y gcc
 RUN pip install https://github.com/andreatramacere/jetset/releases/download/1.3.0rc6/jetset-1.3.0rc6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 # create user with a home directory
