@@ -19,7 +19,7 @@ We will work with version 1.2.2. There binaries are distributed only for linux a
 
  - for windows users, please use WSL: https://learn.microsoft.com/en-us/windows/wsl/install
 
- - in case of impossibility to run the code on your laptop, you can run the notebooks on a remote binder server (see next itmes)
+ - in case of impossibility to run the code on your laptop, you can run the notebooks on a remote binder server (see next items)
 
 you can run all the notebooks on a remote server (Method 1), **or** locally on your laptop (Method 2)
 
@@ -32,7 +32,7 @@ you can run all the notebooks on a remote server (Method 1), **or** locally on y
 
 - Method 2) Run the notebooks on your laptop: 
     
-    The easiest solution is to creat a conda environment
+    The easiest solution is to create a conda environment
 
   - install anaconda from: https://www.anaconda.com/download/ (it will work also with mamba if you prefer: https://mamba.readthedocs.io/en/latest/index.html, just replace `conda` with mamba in the following steps)
   
