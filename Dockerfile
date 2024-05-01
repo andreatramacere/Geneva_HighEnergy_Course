@@ -1,5 +1,5 @@
 #PIP
-FROM python:3.9-slim
+FROM python:3.10-slim
 # install the notebook package
 RUN pip install --no-cache --upgrade pip && \
     pip install --no-cache notebook
@@ -11,17 +11,16 @@ RUN pip install --no-cache --upgrade pip && \
 USER root
 
 
-ADD requirements_docker.txt /requirements_docker.txt
+#ADD requirements_docker.txt /requirements_docker.txt
 
 
 #PIPI
-RUN pip install -r requirements_docker.txt
-RUN apt-get update -y
-RUN apt-get install -y swig
+#RUN pip install -r requirements_docker.txt
+#RUN apt-get update -y
+#RUN apt-get install -y swig
 RUN apt-get install -y git
-RUN apt-get install -y gcc
-RUN pip install git+http://github.com/andreatramacere/jetset#egg=jetset
-WORKDIR /
+#RUN apt-get install -y gcc
+RUN pip install https://github.com/andreatramacere/jetset/releases/download/1.3.0rc6/jetset-1.3.0rc6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
 # create user with a home directory
 ARG NB_USER=jovyan
 ARG NB_UID=1000
