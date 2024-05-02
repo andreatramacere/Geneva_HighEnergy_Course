@@ -16,12 +16,13 @@ You can access/download the slides directly here: https://github.com/andreatrama
 ### Requirements
 We will work with version 1.2.2. There binaries are distributed only for **linux** and **MacOS(X86 architecture)**, 
 
- - If you have a **Mac with ARM architecture (M1/2/3)**, and you system is not able to install the X86 version,
- please contact me to install from source, or to install the binaries of version 1.3.0.  I will setup a Zoom call to guide you during the installation 
+ - If you have a **Mac with ARM architecture (M1/2/3)**, and your system is not able to install the X86 version,
+ please contact me, either opening an issue on this repository, or by emailing me to: andrea.tramacere@gmail.com,
+ I will assist you to install from source, or to install the binaries of version 1.3.0.  In case, I can set up a Zoom call to guide you during the installation. 
 
- - for **Windows** users, please install WSL: https://learn.microsoft.com/en-us/windows/wsl/install
+ - For **Windows** users, please install WSL: https://learn.microsoft.com/en-us/windows/wsl/install
 
- - in case of impossibility to run the code on your laptop, you can run the notebooks on a remote binder server (see next section)
+ - In case of impossibility to run the code on your laptop, you can run the notebooks on a remote binder server (see next section)
 
 
 ### Running the notebooks 
