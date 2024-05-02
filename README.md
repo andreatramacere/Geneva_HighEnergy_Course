@@ -57,8 +57,6 @@ you can run all the notebooks locally on your laptop (Method 1) **or**  on a rem
 The JetSeT documentation is here: https://jetset.readthedocs.io/en/stable/index.html
 
 
-
-
 ## To updated on the jestet
 - keep updated on the FB page <https://www.facebook.com/jetsetastro/>
 - subscribe to the git repository: https://github.com/andreatramacere/jetset
