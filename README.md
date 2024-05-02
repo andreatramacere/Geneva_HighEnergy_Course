@@ -31,13 +31,13 @@ you can run all the notebooks locally on your laptop (Method 1) **or**  on a rem
 
 
 
-- Method 1) Run the notebooks on your laptop: 
+- **Method 1)** Run the notebooks on your laptop: 
     
     The easiest solution is to create a conda environment
 
   - install anaconda from: https://www.anaconda.com/download/ 
 
-    *OR*   
+    **OR**   
  
   - it will work also with mamba if you prefer: https://mamba.readthedocs.io/en/latest/index.html, just replace `conda`   with `mamba` in the following steps
   
@@ -49,7 +49,7 @@ you can run all the notebooks locally on your laptop (Method 1) **or**  on a rem
 
   - run the notebooks using `jupyter-notebook` or any IDE (e.g. VScode) with a jupyter notebook plugin
 
-- Method 2) Run the notebooks on binder (remote server): 
+- **Method 2)** Run the notebooks on binder (remote server): 
  
   - run the notebooks using this link [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreatramacere/Geneva_HighEnergy_Course/HEAD)
 
