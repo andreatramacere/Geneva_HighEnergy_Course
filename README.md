@@ -14,12 +14,12 @@ You can access/download the slides directly here: https://github.com/andreatrama
 ## Instructions for the hands-on session:
 
 ### Requirements
-We will work with version 1.2.2. There binaries are distributed only for linux and MacOS(X86 architecture), 
+We will work with version 1.2.2. There binaries are distributed only for **linux** and **MacOS(X86 architecture)**, 
 
- - If you have a Mac with ARM architecture (M1/2/3), please contact  me to install from source, or
- to install the binaries of version 1.3.0.  I will setup a zoom call to guide you during the installation 
+ - If you have a **Mac with ARM architecture (M1/2/3)**, and you system is not able to install the X86 version,
+ please contact me to install from source, or to install the binaries of version 1.3.0.  I will setup a Zoom call to guide you during the installation 
 
- - for windows users, please use WSL: https://learn.microsoft.com/en-us/windows/wsl/install
+ - for **Windows** users, please install WSL: https://learn.microsoft.com/en-us/windows/wsl/install
 
  - in case of impossibility to run the code on your laptop, you can run the notebooks on a remote binder server (see next section)
 
@@ -34,13 +34,17 @@ you can run all the notebooks locally on your laptop (Method 1) **or**  on a rem
     
     The easiest solution is to create a conda environment
 
-  - install anaconda from: https://www.anaconda.com/download/ (it will work also with mamba if you prefer: https://mamba.readthedocs.io/en/latest/index.html, just replace `conda` with mamba in the following steps)
+  - install anaconda from: https://www.anaconda.com/download/ 
+
+    *OR*   
+ 
+  - it will work also with mamba if you prefer: https://mamba.readthedocs.io/en/latest/index.html, just replace `conda`   with `mamba` in the following steps
   
   - create the virtual environment:  `conda create --name jetset python=3.9 ipython jupyter`
-  
-  - install the code `conda install -c andreatramacere -c astropy -c conda-forge 'jetset>=1.2'`
 
   - activate the environment: `conda activate jetset`
+  
+  - install the code `conda install -c andreatramacere -c astropy -c conda-forge 'jetset>=1.2'`
 
   - run the notebooks using `jupyter-notebook` or any IDE (e.g. VScode) with a jupyter notebook plugin
 
