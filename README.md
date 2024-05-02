@@ -7,9 +7,9 @@
 
 OR if you don't have git installed on your machine
 
-- download from here: https://github.com/andreatramacere/Geneva_HighEnergy_Course/archive/refs/heads/main.zip
+- download from [here](https://github.com/andreatramacere/Geneva_HighEnergy_Course/archive/refs/heads/main.zip)
 
-You can access/download the slides directly here: https://github.com/andreatramacere/Geneva_HighEnergy_Course/blob/main/Geneva_HighEnergy_Course_slides.pdf
+You can access/download the slides directly [here](https://github.com/andreatramacere/Geneva_HighEnergy_Course/blob/main/Geneva_HighEnergy_Course_slides.pdf) 
 
 ## Instructions for the hands-on session:
 
@@ -17,7 +17,7 @@ You can access/download the slides directly here: https://github.com/andreatrama
 We will work with version 1.2.2 of JetSeT. The binaries are distributed only for **linux** and **MacOS(X86 architecture)**, 
 
  - If you have a **Mac with ARM architecture (M1/2/3)**, and your system is not able to install the X86 version,
- please contact me, either opening an issue on this repository, or by emailing me to: andrea.tramacere@gmail.com,
+ please contact me, either opening an issue on this repository, or by emailing [me](mailto:andrea.tramacere@gmail.com)
  I will assist you to install from source, or to install the binaries of version 1.3.0.  In case, I can set up a Zoom call to guide you during the installation. 
 
  - For **Windows** users, please install WSL: https://learn.microsoft.com/en-us/windows/wsl/install
