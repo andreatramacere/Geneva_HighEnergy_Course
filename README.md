@@ -14,7 +14,7 @@ You can access/download the slides directly here: https://github.com/andreatrama
 ## Instructions for the hands-on session:
 
 ### Requirements
-We will work with version 1.2.2. There binaries are distributed only for **linux** and **MacOS(X86 architecture)**, 
+We will work with version 1.2.2 of JetSeT. The binaries are distributed only for **linux** and **MacOS(X86 architecture)**, 
 
  - If you have a **Mac with ARM architecture (M1/2/3)**, and your system is not able to install the X86 version,
  please contact me, either opening an issue on this repository, or by emailing me to: andrea.tramacere@gmail.com,
