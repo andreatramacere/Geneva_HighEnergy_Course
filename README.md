@@ -7,7 +7,7 @@
 
 OR if you don't have git installed on your machine
 
-- download visiting <https://github.com/andreatramacere/Geneva_HighEnergy_Course>
+- download from here: https://github.com/andreatramacere/Geneva_HighEnergy_Course/archive/refs/heads/main.zip
 
 You can access/download the slides directly here: https://github.com/andreatramacere/Geneva_HighEnergy_Course/blob/main/Geneva_HighEnergy_Course_slides.pdf
 
