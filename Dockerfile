@@ -13,7 +13,6 @@ USER root
 
 #ADD requirements_docker.txt /requirements_docker.txt
 
-
 #PIPI
 #RUN pip install -r requirements_docker.txt
 #RUN apt-get update -y
