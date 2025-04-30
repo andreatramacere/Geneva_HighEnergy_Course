@@ -14,15 +14,12 @@ You can access/download the slides directly [here](https://github.com/andreatram
 ## Instructions for the hands-on session:
 
 ### Requirements
-We will work with version 1.2.2 of JetSeT. The binaries are distributed only for **linux** and **MacOS(X86 architecture)**, 
+We will work with version 1.3.0 of JetSeT. The binaries are distributed only for **linux** and **MacOS**, 
 
- - If you have a **Mac with ARM architecture (M1/2/3)**, and your system is not able to install the X86 version,
- please contact me, either opening an issue on this repository, or by emailing [me](mailto:andrea.tramacere@gmail.com)
- I will assist you to install from source, or to install the binaries of version 1.3.0.  In case, I can set up a Zoom call to guide you during the installation. 
 
  - For **Windows** users, please install WSL: https://learn.microsoft.com/en-us/windows/wsl/install
 
- - In case of impossibility to run the code on your laptop, you can run the notebooks on a remote binder server (see next section)
+ - In case you do not manage to run the code on your laptop, you can run the notebooks on a remote binder server (see next section)
 
 
 ### Running the notebooks 
@@ -41,11 +38,11 @@ you can run all the notebooks locally on your laptop (Method 1) **or**  on a rem
  
   - it will work also with mamba if you prefer: https://mamba.readthedocs.io/en/latest/index.html, just replace `conda`   with `mamba` in the following steps
   
-  - create the virtual environment:  `conda create --name jetset python=3.9 ipython jupyter`
+  - create the virtual environment:  `conda create --name jetset python=3.11 ipython jupyter`
 
   - activate the environment: `conda activate jetset`
   
-  - install the code `conda install -c andreatramacere -c astropy -c conda-forge 'jetset>=1.2'`
+  - install the code `conda install -c andreatramacere -c astropy -c conda-forge 'jetset==1.3.0'`
 
   - run the notebooks using `jupyter-notebook` or any IDE (e.g. VScode) with a jupyter notebook plugin
 
